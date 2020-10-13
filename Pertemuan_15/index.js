@@ -37,7 +37,7 @@ age:23,
 // console.log(name, age);
 
 // let {name: nama, age: umur} = user;
-// console.log('Nama saya adalah ${name}.Umur saya adalah ${age}');
+// console.log(`Nama saya adalah ${name}.Umur saya adalah ${age}`);
 // };
 
 // Display(user);
