@@ -6,7 +6,7 @@ const calculateAge = (birthYear) => {
 }
 
 const yearUntilRetirement = (object) => {
-    let age = calculateAge (object.Year)
+    let age = calculateAge (object.birthYear)
     let retirement = 60 - age;
     if(retirement > 0){
         console.log(`${object.firstName} 'retired in' ${retirement} years.`);
